@@ -1,10 +1,12 @@
 import "./TaskCard.css";
 
 function TaskCard() {
+  const taskID = "T-1";
+
   return (
     <div className="card-wrapper">
       <div className="card-header">
-        <p className="task-id">T-1</p>
+        <p className="task-id">{taskID}</p>
         <div className="badge">
           <p>Todo</p>
         </div>
